@@ -15,13 +15,13 @@
             <h2 class="title">DETALHES PESSOAIS</h2>
             <div class="inputs">
                 <h3>Nome</h3>
-                <input class ="inputs" type="text" id="name" name="name" value="Ícaro">
+                <input class ="inputs" type="text" id="name" name="name" value="Carlos">
                 <h3>Jogador</h3>
-                <input class ="inputs" type="text" id="player" name="player" value="Kauê">
+                <input class ="inputs" type="text" id="player" name="player" value="Willo">
                 <h3>Ocupação</h3>
-                <input class ="inputs" type="text" id="ocupation" name="ocupation" value="Ex-militar">
+                <input class ="inputs" type="text" id="ocupation" name="ocupation" value="Policial">
                 <h3>Idade</h3>
-                <input class ="inputs" type="text" id="age" name="age" value="48">
+                <input class ="inputs" type="text" id="age" name="age" value="34">
                 <h3>Gênero</h3>
                 <select class ="inputs" id="gender" name="gender">
                     <option value="male">Masculino</option>
@@ -29,7 +29,7 @@
                     <option value="other">Outro</option>
                 </select>
                 <h3>Local de nascimento</h3>
-                <input class ="inputs" type="text" id="birthplace" name="birthplace" value="São Paulo">
+                <input class ="inputs" type="text" id="birthplace" name="birthplace" value="Pernambuco">
                 <h3>Local de residência</h3>
                 <input class ="inputs" type="text" id="place-residence" name="place-residence" value="São Paulo">
             </div>
@@ -105,19 +105,19 @@
             <div class="secundary-attributes">
                 <div class="extra-damage">
                     <h4>Dano Extra</h4>
-                    <input class ="inputs" type="text" id="extra-damage" name="extra-damage" value="1D4">
+                    <input class ="inputs" type="text" id="extra-damage" name="extra-damage" value="">
                 </div>
                 <div class="body">
                     <h4>Corpo</h4>
-                    <input class ="inputs" type="text" id="body" name="body" value="1">
+                    <input class ="inputs" type="text" id="body" name="body" value="">
                 </div>
                 <div class="movimentation">
                     <h4>Movimentação</h4>
-                    <input class ="inputs" type="text" id="movimentation" name="movimentation" value="7">
+                    <input class ="inputs" type="text" id="movimentation" name="movimentation" value="">
                 </div>
                 <div class="exposure">
-                    <h4>Exposição</h4>
-                    <input class ="inputs" type="text" id="exposure" name="exposure" value="20">
+                    <h4>Paranormalidade</h4>
+                    <input class ="inputs" type="text" id="exposure" name="exposure" value="%">
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
                 <div class="attribute" id="appearence">
                     <img class="dice-roll" src="images/dice.png" style="width: 25px; height: 25px;" onclick="attributeTest(this.parentNode)">
                     <h3>Aparência</h3>
-                    <p>7</p>
+                    <p>8</p>
                 </div>
                 <div class="attribute" id="constitution">
                     <img class="dice-roll" src="images/dice.png" style="width: 25px; height: 25px;" onclick="attributeTest(this.parentNode)">
@@ -143,32 +143,32 @@
                 <div class="attribute" id="education">
                     <img class="dice-roll" src="images/dice.png" style="width: 25px; height: 25px;" onclick="attributeTest(this.parentNode)">
                     <h3>Educação</h3>
-                    <p>16</p>
+                    <p>12</p>
                 </div>
                 <div class="attribute" id="strength">
                     <img class="dice-roll" src="images/dice.png" style="width: 25px; height: 25px;" onclick="attributeTest(this.parentNode)">
                     <h3>Força</h3>
-                    <p>14</p>
+                    <p>16</p>
                 </div>
                 <div class="attribute" id="intelligence">
                     <img class="dice-roll" src="images/dice.png" style="width: 25px; height: 25px;" onclick="attributeTest(this.parentNode)">
                     <h3>Inteligência</h3>
-                    <p>17</p>
+                    <p>10</p>
                 </div>
                 <div class="attribute" id="power">
                     <img class="dice-roll" src="images/dice.png" style="width: 25px; height: 25px;" onclick="attributeTest(this.parentNode)">
                     <h3>Poder</h3>
-                    <p>13</p>
+                    <p>10</p>
                 </div>
                 <div class="attribute" id="luck">
                     <img class="dice-roll" src="images/dice.png" style="width: 25px; height: 25px;" onclick="attributeTest(this.parentNode)">
                     <h3>Sorte</h3>
-                    <p>15</p>
+                    <p>9</p>
                 </div>
                 <div class="attribute" id="size">
                     <img class="dice-roll" src="images/dice.png" style="width: 25px; height: 25px;" onclick="attributeTest(this.parentNode)">
                     <h3>Tamanho</h3>
-                    <p>15</p>
+                    <p>12</p>
                 </div>
             </div>
         </div>
@@ -190,7 +190,7 @@
                 </div>
                 <div class="expertise" id="throw" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>12</p>
+                    <p>5</p>
                     <h3>Arremessar</h3>
                 </div>
                 <div class="expertise" id="assessment" onclick="expertiseTest(this)">
@@ -205,7 +205,7 @@
                 </div>
                 <div class="expertise" id="charm" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>3</p>
+                    <p>5</p>
                     <h3>Charme</h3>
                 </div>
                 <div class="expertise" id="locksmith" onclick="expertiseTest(this)">
@@ -215,8 +215,8 @@
                 </div>
                 <div class="expertise" id="electrical-repairs" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>2</p>
-                    <h3>Consertos Elétricos</h3>
+                    <p>14</p>
+                    <h3>Atirar(pistolas)</h3>
                 </div>
                 <div class="expertise" id="mechanical-repairs" onclick="expertiseTest(this)">
                     <input type="checkbox">
@@ -230,12 +230,12 @@
                 </div>
                 <div class="expertise" id="right" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>1</p>
+                    <p>14</p>
                     <h3>Direito</h3>
                 </div>
                 <div class="expertise" id="drive-cars" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>4</p>
+                    <p>14</p>
                     <h3>Dirigir Automóveis</h3>
                 </div>
                 <div class="expertise" id="disguise" onclick="expertiseTest(this)">
@@ -245,22 +245,22 @@
                 </div>
                 <div class="expertise" id="electronics" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>1</p>
-                    <h3>Eletrônica</h3>
+                    <p>18</p>
+                    <h3>Atirar(metralhadora)</h3>
                 </div>
                 <div class="expertise" id="find" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>5</p>
+                    <p>15</p>
                     <h3>Encontrar</h3>
                 </div>
                 <div class="expertise" id="climb" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>4</p>
-                    <h3>Escalar</h3>
+                    <p>16</p>
+                    <h3>Lutar(briga)</h3>
                 </div>
                 <div class="expertise" id="hear" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>10</p>
+                    <p>12</p>
                     <h3>Escutar</h3>
                 </div>
                 <div class="expertise" id="dodge" onclick="expertiseTest(this)">
@@ -270,7 +270,7 @@
                 </div>
                 <div class="expertise" id="stealth" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>4</p>
+                    <p>5</p>
                     <h3>Furtividade</h3>
                 </div>
                 <div class="expertise" id="history" onclick="expertiseTest(this)">
@@ -280,7 +280,7 @@
                 </div>
                 <div class="expertise" id="intimidation" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>12</p>
+                    <p>11</p>
                     <h3>Intimidação</h3>
                 </div>
                 <div class="expertise" id="gift-gab" onclick="expertiseTest(this)">
@@ -290,18 +290,18 @@
                 </div>
                 <div class="expertise" id="native-language" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>16</p>
+                    <p>12</p>
                     <h3>Língua [Nativa]</h3>
                 </div>
                 <div class="expertise" id="medicine" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>1</p>
+                    <p>8</p>
                     <h3>Medicina</h3>
                 </div>
                 <div class="expertise" id="diving" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>1</p>
-                    <h3>Mergulho</h3>
+                    <p>5</p>
+                    <h3>Atirar(espingardas)</h3>
                 </div>
                 <div class="expertise" id="natural-world" onclick="expertiseTest(this)">
                     <input type="checkbox">
@@ -310,17 +310,17 @@
                 </div>
                 <div class="expertise" id="swimming" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>4</p>
+                    <p>5</p>
                     <h3>Natação</h3>
                 </div>
                 <div class="expertise" id="navigation" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>2</p>
+                    <p>1</p>
                     <h3>Navegação</h3>
                 </div>
                 <div class="expertise" id="credit-level" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>8</p>
+                    <p>6</p>
                     <h3>Nível de Crédito</h3>
                 </div>
                 <div class="expertise" id="occultism-expertise" onclick="expertiseTest(this)">
@@ -355,12 +355,12 @@
                 </div>
                 <div class="expertise" id="psychology" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>2</p>
+                    <p>8</p>
                     <h3>Psicologia</h3>
                 </div>
                 <div class="expertise" id="track-back" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>2</p>
+                    <p>1</p>
                     <h3>Rastrear</h3>
                 </div>
                 <div class="expertise" id="jump" onclick="expertiseTest(this)">
@@ -370,13 +370,13 @@
                 </div>
                 <div class="expertise" id="use-libraries" onclick="expertiseTest(this)">
                     <input type="checkbox">
-                    <p>4</p>
+                    <p>9</p>
                     <h3>Usar Bibliotecas</h3>
                 </div>
                 <div class="expertise" id="use-computers" onclick="expertiseTest(this)">
                     <input type="checkbox">
                     <p>1</p>
-                    <h3>Usar Computadores</h3>
+                    <h3>Lingua (outra)</h3>
                 </div>
             </div>
         </div>
